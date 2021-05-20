@@ -68,14 +68,14 @@ public class SupplierWarehousingController {
 	}
 
 	/**
-	 * 上传战略合同789
+	 * 上传战略合同666
 	 * @param uploadSupplierRequestVo 公司ID
 	 * @param uploadSupplierRequestVo 公告ID
 	 * @param uploadSupplierRequestVo 公示ID
 	 * @param uploadSupplierRequestVo 附件信息
 	 * @return 状态
 	 */
-	@PostMapping("/uploadStrategicContract")
+	@PostMapping("/uploadStrategicContract777")
 	public R uploadStrategicContract(@RequestBody UploadSupplierRequestVo uploadSupplierRequestVo) {
 		try {
 			supplierWarehousingService.uploadStrategicContract(uploadSupplierRequestVo);
