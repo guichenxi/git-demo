@@ -79,7 +79,7 @@ public class SupplierWarehousingController {
 	public R uploadStrategicContract(@RequestBody UploadSupplierRequestVo uploadSupplierRequestVo) {
 		try {
 			supplierWarehousingService.uploadStrategicContract(uploadSupplierRequestVo);
-			return R.success("上传成功888");
+			return R.success("上传成功888222");
 		}catch (ServiceException e){
 			return R.fail(e.getResultCode());
 		}
