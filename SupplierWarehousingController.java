@@ -103,7 +103,7 @@ public class SupplierWarehousingController {
 	 * @param supplierId 供应商ID
 	 * @return 供应商入库过程数据
 	 */
-	@PostMapping("/getStorageProcess")
+	@PostMapping("/getStorageProcess333")
 	public R<SupplierWarehousingProcessVO> getStorageProcess(@Param("supplierId") Long supplierId) {
 		SupplierWarehousingProcessVO supplierWarehousingProcessVO = supplierWarehousingService.getStorageProcess(supplierId);
 		return R.data(supplierWarehousingProcessVO);
