@@ -75,7 +75,7 @@ public class SupplierWarehousingController {
 	 * @param uploadSupplierRequestVo 附件信息
 	 * @return 状态
 	 */
-	@PostMapping("/uploadStrategicContract")
+	@PostMapping("/uploadStrategicContract777")
 	public R uploadStrategicContract(@RequestBody UploadSupplierRequestVo uploadSupplierRequestVo) {
 		try {
 			supplierWarehousingService.uploadStrategicContract(uploadSupplierRequestVo);
