@@ -61,21 +61,21 @@ public class SupplierWarehousingController {
 	 * @param supplierVO  科目ID（筛选条件）
 	 * @return 分页公司信息
 	 */
-	@PostMapping("/getFinalistSupplier")
+	@PostMapping("/getFinalistSupplier123")
 	public R<IPage<SupplierWarehousingVO>> getFinalistSupplier(@RequestBody SupplierVO supplierVO, Query query) {
 		IPage<SupplierWarehousingVO> pages = supplierWarehousingService.getFinalistSupplier(Condition.getPage(query), supplierVO.getSupplierName(), supplierVO.getSubjectId());
 		return R.data(pages);
 	}
 
 	/**
-	 * 上传战略合同123
+	 * 上传战略合同666
 	 * @param uploadSupplierRequestVo 公司ID
 	 * @param uploadSupplierRequestVo 公告ID
 	 * @param uploadSupplierRequestVo 公示ID
 	 * @param uploadSupplierRequestVo 附件信息
 	 * @return 状态
 	 */
-	@PostMapping("/uploadStrategicContract")
+	@PostMapping("/uploadStrategicContract777")
 	public R uploadStrategicContract(@RequestBody UploadSupplierRequestVo uploadSupplierRequestVo) {
 		try {
 			supplierWarehousingService.uploadStrategicContract(uploadSupplierRequestVo);
