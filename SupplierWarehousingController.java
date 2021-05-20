@@ -68,7 +68,7 @@ public class SupplierWarehousingController {
 	}
 
 	/**
-	 * 上传战略合同666
+	 * 上传战略合同123
 	 * @param uploadSupplierRequestVo 公司ID
 	 * @param uploadSupplierRequestVo 公告ID
 	 * @param uploadSupplierRequestVo 公示ID
