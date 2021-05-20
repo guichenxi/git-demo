@@ -61,7 +61,7 @@ public class SupplierWarehousingController {
 	 * @param supplierVO  科目ID（筛选条件）
 	 * @return 分页公司信息
 	 */
-	@PostMapping("/getFinalistSupplier")
+	@PostMapping("/getFinalistSupplier123")
 	public R<IPage<SupplierWarehousingVO>> getFinalistSupplier(@RequestBody SupplierVO supplierVO, Query query) {
 		IPage<SupplierWarehousingVO> pages = supplierWarehousingService.getFinalistSupplier(Condition.getPage(query), supplierVO.getSupplierName(), supplierVO.getSubjectId());
 		return R.data(pages);
